@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="Locare.SendAndRecieve"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Locare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="82"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="">
+            <TextBlock 
+                   
+                   Text="locare" FontSize="72"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Background="" Margin="0,200">
+            <Button Name="send" Content="Send"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="Blue"
+                  
+                    Click="send_Click"/>
+            <Button Name="recieve" Content="Recieve"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Background="Blue"
+                    Click="recieve_Click"/>
+        </StackPanel>
+
+
+
+    </Grid>
+</Page>

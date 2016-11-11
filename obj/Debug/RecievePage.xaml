@@ -1,0 +1,49 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Locare"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="Locare.RecievePage"
+   
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Background="Chocolate" Orientation="Horizontal">
+            <AppBarButton x:ConnectionId='2' x:Name="appBarButton" 
+                          Height="100"
+                          Icon="Back"
+                                                    
+                          Margin="0,15"/>
+            <TextBlock Text="locare"
+                       
+                   FontSize="72"
+                       HorizontalAlignment="Right"/>
+
+        </StackPanel>
+        <Maps:MapControl Name="RecieveMap" Grid.Row="1"/>
+        <TextBox Name="Latitude" PlaceholderText="Enter Latitude"
+                 Background="Black"
+                 Grid.Row="2"/>
+        <TextBox Name="Longitude"
+                 Background="Black"
+                 PlaceholderText="Enter Longitude"
+                 Grid.Row="3"/>
+        <Button x:ConnectionId='1' Name="SetPosition" Content="Locate"
+                Background="Red"
+                Grid.Row="4"
+                                         />
+
+
+    </Grid>
+</Page>
+

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RAJAN-UG2-3221</Machine>
+    <WindowsUser>RAJAN</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>e5896862-60ac-4c28-b441-207d1674b1d8</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\Locare.exe">
+      <PackagePath>Locare.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\Locare.xr.xml">
+      <PackagePath>Locare.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\RecievePage.xbf">
+      <PackagePath>RecievePage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\SendAndRecieve.xbf">
+      <PackagePath>SendAndRecieve.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\SmsSendPage.xbf">
+      <PackagePath>SmsSendPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\RAJAN\Documents\Visual Studio 2015\Projects\Locare\Locare\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
